@@ -29,3 +29,8 @@ variable "image_id" {
   type        = string
   default     = ""
 }
+variable "nc_count" {
+  description = "Count of node-controller"
+  type        = number
+  default     = 0
+}
